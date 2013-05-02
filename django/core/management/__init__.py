@@ -52,11 +52,21 @@ def find_management_module(app_name):
     # testproject isn't in the path. When looking for the management
     # module, we need look for the case where the project name is part
     # of the app_name but the project directory itself isn't on the path.
+
     try:
         f, path, descr = imp.find_module(part, path)
     except ImportError as e:
-        if os.path.basename(os.getcwd()) != part:
-            raise e
+        try:
+            from importlib import import_module
+            module=import_module(app_name)
+        except ImportError,e:
+            if os.path.basename(os.getcwd()) != part:
+                raise e
+        else:
+            paths = module.__path__
+            if len(paths) > 0:
+                path = paths[0]
+                parts = ['management']
     else:
         if f:
             f.close()
