@@ -15,7 +15,7 @@ Journal-World`_ of Lawrence, Kansas, USA.
 
     He was lead developer at World Online for 2.5 years, during which time
     Django was developed and implemented on World Online's sites. He was the
-    leader and founder of EveryBlock_, a "news feed for your block." He now 
+    leader and founder of EveryBlock_, a "news feed for your block." He now
     develops for Soundslice_.
 
     Adrian lives in Chicago, USA.
@@ -30,18 +30,15 @@ Journal-World`_ of Lawrence, Kansas, USA.
     Simon lives in Brighton, England.
 
 `Jacob Kaplan-Moss`_
-    Jacob is a partner at `Revolution Systems`_ which provides support services
-    around Django and related open source technologies. A good deal of Jacob's
-    work time is devoted to working on Django. Jacob previously worked at World
-    Online, where Django was invented, where he was the lead developer of
-    Ellington, a commercial Web publishing platform for media companies.
-
-    Jacob lives in Lawrence, Kansas, USA.
+    Jacob is Director of Platform Security at Heroku_. He worked at World
+    Online for four years, where he helped open source Django and found
+    the Django Software Foundation. Jacob lives on a hobby farm outside of
+    Lawrence where he spends his weekends playing with dirt and power tools.
 
 `Wilson Miner`_
     Wilson's design-fu is what makes Django look so nice. He designed the
     Web site you're looking at right now, as well as Django's acclaimed admin
-    interface. Wilson was the designer for EveryBlock and Rdio_. He now 
+    interface. Wilson was the designer for EveryBlock and Rdio_. He now
     designs for Facebook.
 
     Wilson lives in San Francisco, USA.
@@ -55,6 +52,7 @@ Journal-World`_ of Lawrence, Kansas, USA.
 .. _jacob kaplan-moss: http://jacobian.org/
 .. _revolution systems: http://revsys.com/
 .. _wilson miner: http://wilsonminer.com/
+.. _heroku: http://heroku.com/
 
 Current developers
 ==================
@@ -105,8 +103,8 @@ Malcolm Tredinnick
 .. _russell keith-magee: http://cecinestpasun.com/
 
 Joseph Kocherhans
-    Joseph was the director of lead development at EveryBlock and previously 
-    developed at the Lawrence Journal-World. He is treasurer of the `Django 
+    Joseph was the director of lead development at EveryBlock and previously
+    developed at the Lawrence Journal-World. He is treasurer of the `Django
     Software Foundation`_. He often disappears for several days into the woods,
     attempts to teach himself computational linguistics, and annoys his
     neighbors with his Charango_ playing.
@@ -200,7 +198,7 @@ Karen Tracey
 
     He has worked on Django's auth, admin and staticfiles apps as well as
     the form, core, internationalization and test systems. He currently works
-    as the lead engineer at Gidsy_.
+    at Mozilla_.
 
     Jannis lives in Berlin, Germany.
 
@@ -208,7 +206,7 @@ Karen Tracey
 .. _Bauhaus-University Weimar: http://www.uni-weimar.de/
 .. _virtualenv: http://www.virtualenv.org/
 .. _pip: http://www.pip-installer.org/
-.. _Gidsy: http://gidsy.com/
+.. _Mozilla: http://www.mozilla.org/
 
 `James Tauber`_
     James is the lead developer of Pinax_ and the CEO and founder of
@@ -386,17 +384,17 @@ Florian Apolloner
 .. _Ubuntuusers webteam: http://wiki.ubuntuusers.de/ubuntuusers/Webteam
 
 Jeremy Dunck
-    Jeremy was rescued from corporate IT drudgery by Free Software and, in part, 
+    Jeremy was rescued from corporate IT drudgery by Free Software and, in part,
     Django.  Many of Jeremy's interests center around access to information.
 
-    Jeremy was the lead developer of Pegasus News, one of the first uses of 
-    Django outside World Online, and has since joined Votizen, a startup intent 
+    Jeremy was the lead developer of Pegasus News, one of the first uses of
+    Django outside World Online, and has since joined Votizen, a startup intent
     on reducing the influence of money in politics.
 
-    He serves as DSF Secretary, organizes and helps organize sprints, cares 
-    about the health and equity of the Django community.  He has gone an 
+    He serves as DSF Secretary, organizes and helps organize sprints, cares
+    about the health and equity of the Django community.  He has gone an
     embarrassingly long time without a working blog.
-    
+
     Jeremy lives in Mountain View, CA, USA.
 
 `Bryan Veloso`_
@@ -441,8 +439,19 @@ Jeremy Dunck
 .. _Ultimate Frisbee: http://www.montrealultimate.ca
 .. _Reptiletech: http://www.reptiletech.com
 
-Specialists
------------
+`Daniel Lindsley`_
+    Pythonista since 2003, Djangonaut since 2006. Daniel started with Django
+    just after the v0.90 release (back when ``Manipulators`` looked good) & fell
+    in love. Since then, he wrote third-party apps like Haystack & Tastypie
+    & has run the annual Django Dash since 2007. One of the testing faithful,
+    Daniel's contributions include rewriting the ``Forms`` test suite & the
+    addition of ``request.is_ajax``. Daniel currently works as a Python
+    developer at `Amazon Web Services`_ on the ``boto`` library.
+
+    Daniel lives in Seattle, WA, USA.
+
+.. _`Daniel Lindsley`: http://toastdriven.com/
+.. _`Amazon Web Services`: https://aws.amazon.com/
 
 `James Bennett`_
     James is Django's release manager, and also contributes to the
@@ -493,6 +502,18 @@ Tim Graham
     He enjoys contributing to the docs because they're awesome.
 
     Tim works as a software engineer and lives in Philadelphia, PA, USA.
+
+Marc Tamlyn
+    Marc started life on the web using Django 1.2 back in 2010, and has never
+    looked back. He was involved with rewriting the class based view
+    documentation at DjangoCon EU 2012, and also helped to develop `CCBV`_, an
+    additional class based view reference tool.
+
+    Marc currently works at `Incuna Ltd`_, a digital healthcare agency in
+    Oxford, UK.
+
+.. _CCBV: http://ccbv.co.uk/
+.. _Incuna Ltd: http://incuna.com/
 
 Developers Emeritus
 ===================

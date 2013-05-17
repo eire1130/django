@@ -6,5 +6,3 @@ dist/
 docs/_build/
 tests/coverage_html/
 tests/.coverage
-.pydevproject
-.project

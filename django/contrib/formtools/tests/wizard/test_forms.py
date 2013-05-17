@@ -17,7 +17,7 @@ from django.contrib.formtools.wizard.views import (WizardView,
 class DummyRequest(http.HttpRequest):
     def __init__(self, POST=None):
         super(DummyRequest, self).__init__()
-        self.method = POST and "POST" or "GET"
+        self.method = "POST" if POST else "GET"
         if POST is not None:
             self.POST.update(POST)
         self.session = {}
@@ -60,9 +60,11 @@ class TestModel(models.Model):
 class TestModelForm(forms.ModelForm):
     class Meta:
         model = TestModel
+        fields = '__all__'
 
 
-TestModelFormSet = forms.models.modelformset_factory(TestModel, form=TestModelForm, extra=2)
+TestModelFormSet = forms.models.modelformset_factory(TestModel, form=TestModelForm, extra=2,
+                                                     fields='__all__')
 
 
 class TestWizard(WizardView):
